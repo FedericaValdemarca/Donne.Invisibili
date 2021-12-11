@@ -332,6 +332,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #373737;
 }
 
+.bi-chevron-down-button{
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
 @media (max-width: 375px) {
   #hero {
     text-align: center;
