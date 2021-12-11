@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Avenir", sans-serif;
   font-weight: bolder;
 }
 
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Avenir", sans-serif;
   font-size: 15px;
   font-weight: bolder;
   color: #ffffff;
@@ -384,7 +384,7 @@ a.login-button{
 }
 
 #hero .btn-get-started {
-  font-family: "Nunito", sans-serif;
+  font-family: "Avenir", sans-serif;
   font-weight: 500;
   font-size: 16px;
   display: inline-block;
@@ -523,7 +523,7 @@ a.login-button{
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Avenir", sans-serif;
   font-size: 16px;
 }
 
@@ -1107,7 +1107,7 @@ a.login-button{
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Avenir", sans-serif;
 }
 
 #footer .footer-top h4 {
