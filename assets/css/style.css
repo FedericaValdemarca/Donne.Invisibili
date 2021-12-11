@@ -288,6 +288,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/home/hero-home.jpg") center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
   padding-top: 82px;
   display: flex;
@@ -402,59 +403,71 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*--------------------------------------------------------------
-# Counts
+# Le protagoniste
 --------------------------------------------------------------*/
-.counts .count-box {
-  padding: 30px 30px 25px 30px;
+.collaboratori{
   width: 100%;
-  position: relative;
-  text-align: center;
-  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.06);
-  border-radius: 15px;
-  background-color: #FFEBD7;
-}
-
-.counts .count-box span {
-  margin-top: 10px;
-  font-size: 36px;
-  display: block;
-  font-weight: bolder;
-  color: #373F41;
-}
-
-.counts .count-box p {
-  padding: 0;
-  margin: 0;
-  font-family: "Avenir", sans-serif;
-  font-size: 16px;
-}
-
-.counts {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  width: 100%;
-  background: transparent;
+  background: url("../img/home/sfondo-protagoniste.png") top center no-repeat;
   background-size: cover;
   position: relative;
+  padding: 0px 0;
 }
 
-.dropdown-toggle{
-  margin-top: 10px;
-  background-color: #10BDC5;
-  border: none;
-  border-radius: 20px;
-  padding: 8px 25px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+.collaboratori h2{
+  text-align: center;
+  color: #ffffff;
+  font-weight: bolder;
 }
 
-.dropdown-toggle:hover{
-  background-color: #0A949A;
+.collaboratori .collaboratori-item {
+  box-sizing: content-box;
+  padding: 30px;
+  margin: 30px 15px;
+  min-height: 200px;
+  position: relative;
+  border-radius: 15px;
+  align-content: center;
+  text-align: center;
+}
+
+.collaboratori .collaboratori-item .collaboratori-img {
+  width: 120px;
+  border-radius: 100px;
+  margin: 0 0px 0 0;
+}
+
+.collaboratori .collaboratori-item h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 25px 0 5px 0;
   color: #ffffff;
 }
 
-.icon-counts{
-  max-width: 80px;
+.collaboratori .collaboratori-item p {
+  color: #ffffff;
+  margin: 30px auto 15px auto;
 }
+
+.collaboratori .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.collaboratori .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+}
+
+.collaboratori .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #939598;
+}
+
+.collaboratori-img{
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
 
 
 /*--------------------------------------------------------------
@@ -603,74 +616,6 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   position: relative;
   padding: 100px 0;
-}
-
-
-
-/*--------------------------------------------------------------
-# Collaboratori
---------------------------------------------------------------*/
-.collaboratori{
-  width: 100%;
-  background: url("../img/home/collaboratori-sfondo.jpg") top center no-repeat;
-  background-size: cover;
-  position: relative;
-  padding: 100px 0;
-}
-
-.collaboratori h2{
-  text-align: center;
-  color: #ffffff;
-  font-weight: bolder;
-}
-
-.collaboratori .collaboratori-item {
-  box-sizing: content-box;
-  padding: 30px;
-  margin: 30px 15px;
-  min-height: 200px;
-  position: relative;
-  border-radius: 15px;
-  align-content: center;
-  text-align: center;
-}
-
-.collaboratori .collaboratori-item .collaboratori-img {
-  width: 120px;
-  border-radius: 100px;
-  margin: 0 0px 0 0;
-}
-
-.collaboratori .collaboratori-item h3 {
-  font-size: 25px;
-  font-weight: bold;
-  margin: 25px 0 5px 0;
-  color: #ffffff;
-}
-
-.collaboratori .collaboratori-item p {
-  color: #ffffff;
-  margin: 30px auto 15px auto;
-}
-
-.collaboratori .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.collaboratori .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-}
-
-.collaboratori .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #939598;
-}
-
-.collaboratori-img{
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 
