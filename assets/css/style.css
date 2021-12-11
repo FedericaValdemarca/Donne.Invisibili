@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Avenir", sans-serif;
-  color: #373F41;
+  color: #373737;
 }
 
 .container{
@@ -12,19 +12,19 @@ body {
 }
 
 a {
-  color: #10BDC5;
+  color: #373737;
   text-decoration: none;
   font-weight: bolder;
 }
 
 a:hover {
-  color: #FF912A;
+  color: #81b259;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Avenir", sans-serif;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 
@@ -44,14 +44,14 @@ h1, h2, h3, h4, h5, h6 {
 # HEADER
 --------------------------------------------------------------*/
 #header {
-  background: transparent;
+  background: #ffffff;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
 }
 
 #header.header-scrolled {
-  background: #373F41;
+  background: #ffffff;
   padding: 12px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Avenir", sans-serif;
   font-size: 15px;
   font-weight: bolder;
-  color: #ffffff;
+  color: #373737;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 60%;
   width: 0%;
-  background: #FF912A;
+  background: #81b259;
   height: 3px;
   transition: all 0.2s linear;
   margin: 10px 0;
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 60%;
   width: 0%;
-  background: #FF912A;
+  background: #81b259;
   height: 3px;
   transition: all 0.2s linear;
   margin: 10px 0;
@@ -124,12 +124,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .nav-link:hover::before{
   width: 50%;
-  background: #FF912A;
+  background: #81b259;
 }
 
 .navbar .nav-link:hover::after{
   width: 50%;
-  background: #FF912A;
+  background: #81b259;
 }
 
 
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #FF912A;;
+  color: #81b259;
 }
 
 .navbar .dropdown{
@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #FF912A;
+  color: #81b259;
 }
 
 .navbar .dropdown:hover > ul {
@@ -259,7 +259,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #373F41;
+  background-color: #373737;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #FF912A;
+  color: #81b259;
 }
 
 .navbar-mobile .getstarted {
@@ -286,7 +286,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #373F41;
+  background: #373737;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -303,41 +303,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #FF912A;
+  color: #81b259;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
-}
-
-
-
-/*--------------------------------------------------------------
-# Modal
---------------------------------------------------------------*/
-.modal-header{
-  border: transparent;
-}
-
-.log-contenitore{
-  padding: 55px;
-}
-
-.log-in{
-  background-color: white;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
-  padding: 20px;
-  border-radius: 25px;
-  margin-top: 15px;
-}
-
-button{
-  border-color: transparent;
-  background-color: transparent;
-}
-
-a.login-button{
-  color: #373F41;
 }
 
 
