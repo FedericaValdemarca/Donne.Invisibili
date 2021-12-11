@@ -97,6 +97,38 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
+.navbar .nav-link::before{
+  content: '';
+  position: absolute;
+  top: 60%;
+  width: 0%;
+  background: #FF912A;
+  height: 3px;
+  transition: all 0.2s linear;
+  margin: 10px 0;
+}
+
+.navbar .nav-link::after{
+  content: '';
+  position: absolute;
+  top: 60%;
+  width: 0%;
+  background: #FF912A;
+  height: 3px;
+  transition: all 0.2s linear;
+  margin: 10px 0;
+}
+
+.navbar .nav-link:hover::before{
+  width: 50%;
+  background: #FF912A;
+}
+
+.navbar .nav-link:hover::after{
+  width: 50%;
+  background: #FF912A;
+}
+
 .navbar a i, .navbar a:focus i {
   font-size: 14px;
   line-height: 0;
