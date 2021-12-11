@@ -322,10 +322,12 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/home/home-hero.png") center no-repeat;
+  background: url("../img/home/hero-home.jpg") center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 82px;
+  display: flex;
+  justify-content: center;
 }
 
 #hero:before {
@@ -340,21 +342,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 50px;
-  font-weight: bolder;
+  font-size: 25px;
+  font-weight: normal;
   color: #fff;
-}
-
-#hero h2 {
-  color: #fff;
-  margin: 10px 0 0 0;
-  font-size: 20px;
-}
-
-#hero h5 {
-  color: #fff;
-  margin: 10px 0 0 0;
-  font-size: 18px;
 }
 
 #hero .btn-get-started {
@@ -383,7 +373,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 58px;
   }
   #hero h1 {
-    font-size: 35px;
+    font-size: 20px;
   }
   #hero h2 {
     font-size: 18px;
